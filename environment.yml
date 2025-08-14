@@ -1,0 +1,28 @@
+name: trading
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.3.2
+  - pandas=2.3.1
+  - scipy=1.16.1
+  - pytorch=2.7.1        # CPU build on macOS via conda-forge
+  - matplotlib=3.10.5
+  - pillow=11.3.0
+  - networkx=3.5
+  - sympy=1.14.0
+  - ta-lib=0.6.4
+  - jinja2=3.1.6
+  - python-dateutil
+  - pytz
+  - pip
+  - pip:
+      - ccxt==4.5.0
+      - oandapyV20==0.7.2
+      - pydantic==2.11.7
+      - rich==14.1.0
+      - requests==2.32.4
+      - alpaca-py
+      # you installed these too, so keeping them explicit
+      - aiohttp==3.12.15
+      - aiodns==3.5.0
