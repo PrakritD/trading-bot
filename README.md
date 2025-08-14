@@ -1,1 +1,1 @@
-#initial repo
+Python Prototying of trading strategies.

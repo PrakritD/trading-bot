@@ -6,7 +6,7 @@ dependencies:
   - numpy=2.3.2
   - pandas=2.3.1
   - scipy=1.16.1
-  - pytorch=2.7.1        # CPU build on macOS via conda-forge
+  - pytorch=2.7.1 
   - matplotlib=3.10.5
   - pillow=11.3.0
   - networkx=3.5
@@ -23,6 +23,5 @@ dependencies:
       - rich==14.1.0
       - requests==2.32.4
       - alpaca-py
-      # you installed these too, so keeping them explicit
       - aiohttp==3.12.15
       - aiodns==3.5.0
